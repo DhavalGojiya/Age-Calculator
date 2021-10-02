@@ -1,16 +1,16 @@
 // Variables For Datepicker
 
-var datePicker = document.getElementById("datePicker");
-var choseDate = document.getElementById("choseDate");
+var datePicker = document.querySelector("#datePicker");
+var choseDate = document.querySelector("#choseDate");
 
 // Variables For Prinitng Values
 
-var ageYear = document.getElementById("ageYear");
-var ageMonth = document.getElementById("ageMonth");
-var ageDays = document.getElementById("ageDays");
-var ageHours = document.getElementById("ageHours");
-var ageSeconds = document.getElementById("ageSeconds");
-var ageMiliSeconds = document.getElementById("ageMiliSeconds");
+var ageYear = document.querySelector("#ageYear");
+var ageMonth = document.querySelector("#ageMonth");
+var ageDays = document.querySelector("#ageDays");
+var ageHours = document.querySelector("#ageHours");
+var ageSeconds = document.querySelector("#ageSeconds");
+var ageMiliSeconds = document.querySelector("#ageMiliSeconds");
 
 datePicker.addEventListener("change", function () {
   var options = { year: "numeric", month: "long", day: "numeric" };
